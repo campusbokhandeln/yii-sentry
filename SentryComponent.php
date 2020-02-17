@@ -163,7 +163,6 @@ class SentryComponent extends CApplicationComponent
 		if ($user && !$user->isGuest) {
 			return array(
 				'id' => $user->getId(),
-				'name' => strtoupper($user->getName()),
 			);
 		}
 		return null;
