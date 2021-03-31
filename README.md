@@ -2,8 +2,10 @@ Yii-Sentry
 ==========
 Sentry component and log route for Yii framework.
 
+This fork should work with php8.
+
 ### Requirements
-* Yii Framework > 1.1.15 (Have not test any other frameworks)
+* Yii Framework > 1.1.23
 * [Sentry Account](https://www.getsentry.com/) or Your own [Sentry server](http://sentry.readthedocs.org/en/latest/quickstart/)
 
 ### Download
